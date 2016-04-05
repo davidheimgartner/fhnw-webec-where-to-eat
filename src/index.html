@@ -3,29 +3,40 @@
 <head>
     <meta charset="UTF-8">
     <title>where-to-eat</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
 
-    <nav>
-    <a> where </a>
-    <a> who </a>
-    <a> what </a>
-    </nav>
+
 
     <main>
-        <section>
+        <section id="where">
             <h1> map </h1>
         </section>
 
-        <section>
+        <section id="who">
             <h1> list </h1>
         </section>
-        <section>
+        <section id="what">
             <h1> form </h1>
         </section>
     </main>
 
+    <nav>
+        <table cellpadding="0" cellspacing="0">
+            <tr>
+                <td>
+                    <a> <span>where</span> </a>
+                </td>
+                <td>
+                    <a> <span>who</span> </a>
+                </td>
+                <td>
+                    <a> <span>what</span> </a>
+                </td>
+            </tr>
+        </table>
+    </nav>
     <script type="text/javascript" src="../node_modules/jquery/dist/jquery.min.js"></script>
     <script type="text/javascript" src="../node_modules/google-maps/lib/Google.min.js"></script>
     <script type="text/javascript" src="app.js"></script>
