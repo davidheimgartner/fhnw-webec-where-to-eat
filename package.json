@@ -1,0 +1,22 @@
+{
+  "name": "where-to-eat",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://davidheimgartner@github.com/davidheimgartner/fhnw-webec-where-to-eat.git"
+  },
+  "author": "david.heimgartner@students.fhnw.ch",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/davidheimgartner/fhnw-webec-where-to-eat/issues"
+  },
+  "homepage": "https://github.com/davidheimgartner/fhnw-webec-where-to-eat#readme",
+  "dependencies": {
+    "jquery": "^2.2.2"
+  }
+}
