@@ -3,7 +3,10 @@
  */
 $(document).ready(function(){
 
-
+  $('#go').on('click','button',function(){
+    $('#what').hide();
+    $('#where').show();
+  });
 
 
 
