@@ -63,7 +63,7 @@ $(document).ready(function () {
 
       var service = new google.maps.places.PlacesService(map);
 
-      service.nearbySearch(placesSearchOptions, function(results, status){
+      service.nearbySearch(placesSearchOptions, function (results, status) {
         console.log(results);
 
         results.forEach(function (place) {
@@ -76,24 +76,23 @@ $(document).ready(function () {
 
 
         // Restaurant Liste erstellen und ausgeben
-        var restaurantList = []
-        for (var i = 0; i < results.length; i++){
-          restaurantList.push(results[i].name)
+        var restaurantList = [];
+        for (var i = 0; i < results.length; i++) {
+          restaurantList.push(results[i].name);
         }
-
-          for(var i=0; i < results.length; i++){
-            $('#who').append(restaurantList[i] + '\n' );
-          }
+        $('#who').find('ol').empty();
+        for (var i = 0; i < results.length; i++) {
+          $('#who').find('ol').append('<li>' +restaurantList[i] + '</li>');
+        }
         console.log(restaurantList);
       });
-
 
 
     }
 
   }
 
-  function setList(results){
+  function setList(results) {
     console.log(results.getName(0));
   }
 
