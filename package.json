@@ -17,7 +17,6 @@
   },
   "homepage": "https://github.com/davidheimgartner/fhnw-webec-where-to-eat#readme",
   "dependencies": {
-    "google-maps": "^3.2.1",
     "jquery": "^2.2.2"
   }
 }
